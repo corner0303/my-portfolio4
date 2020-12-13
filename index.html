@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <!-- <link rel="stylesheet" href="../html5reset-1.6.1.css"> -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./wow/css/libs/animate.css">
+  <link rel="stylesheet" href="myself.css">
+</head>
+<body class="drawer drawer--right">
+  <header>
+    <div class="container container-header">
+      <h1 class="header-logo">
+        <a href="">         
+          <img src="./img/logo.png" alt="" >
+        </a>
+      </h1>
+      <nav class="header-nav hidden-sp">
+        <ul>
+          <li ><a href="#card" class="nav-link">Card</a></li>
+          <li><a href="#news" class="nav-link">News</a></li>
+          <li><a href="#price" class="nav-link">Price</a></li>
+          <li><a href="#map" class="nav-link">Access</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="drawer-items hidden-pc hidden-tab">
+        <!-- ハンバーガーメニュー -->
+        <button type="button" class="drawer-toggle drawer-hamburger">
+            <!-- 中の要素は自由！ -->
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+        </button>
+        <nav class="drawer-nav" role="navigation">
+          <ul class="drawer-menu">
+            <li><a class="drawer-brand" href="#">Brand</a></li>
+            <li><a class="drawer-menu-item nav-item" href="#card">Card</a></li>
+            <li><a class="drawer-menu-item" href="#news">News</a></li>
+            <li><a class="drawer-menu-item" href="#price">Price</a></li>
+            <li><a class="drawer-menu-item" href="#map">Access</a></li>
+            <li><a class="drawer-menu-item" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="drawer-bg"></div>
+      </div>
+    </div>
+  </header>
+  
+  <section class="mainvisual">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        
+        <div class="swiper-slide">
+          <div class="mainvisual-content">
+            <div class="mainvisual-ttl wow fadeInUp">一番伝えたい<br class=" hidden-pc hidden-tab">ことを書く</div>
+            <div class="mainvisual-lead wow fadeInUp">リードリードリードリード1</div>
+            <div class="mainvisual-button"><a href="" class="button-mainvisual">お問い合わせ</a></div>
+          </div>          
+        </div>
+
+        <div class="swiper-slide">
+          <div class="mainvisual-content">
+            <div class="mainvisual-ttl">一番伝えたい<br class=" hidden-pc hidden-tab">ことを書く</div>
+            <div class="mainvisual-lead">リードリードリードリード2</div>
+            <div class="mainvisual-button"><a href="" class="button-mainvisual">お問い合わせ</a></div>
+          </div>          
+        </div>
+
+        <div class="swiper-slide " data-swiper-autoplay="2000">
+          <div class="mainvisual-content">
+            <div class="mainvisual-ttl">一番伝えたい<br class=" hidden-pc hidden-tab">ことを書く</div>
+            <div class="mainvisual-lead">リードリードリードリード3</div>
+            <div class="mainvisual-button"><a href="" class="button-mainvisual">お問い合わせ</a></div>
+          </div>          
+        </div>
+
+        
+        <div class="swiper-slide">
+          <div class="mainvisual-content">
+            <div class="mainvisual-ttl">一番伝えたい<br class=" hidden-pc hidden-tab">ことを書く</div>
+            <div class="mainvisual-lead">リードリードリード4</div>
+            <div class="mainvisual-button"><a href="" class="button-mainvisual">お問い合わせ</a></div>
+          </div>          
+        </div>
+        <div class="swiper-slide">
+          <div class="mainvisual-content">
+            <div class="mainvisual-ttl">一番伝えたい<br class=" hidden-pc hidden-tab">ことを書く</div>
+            <div class="mainvisual-lead">リードリードリードリード5</div>
+            <div class="mainvisual-button"><a href="" class="button-mainvisual">お問い合わせ</a></div>
+          </div>          
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+    <!-- ナビゲーションボタン（※省略可） -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- スクロールバー（※省略可） -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
+    
+  </section>
+
+  
+  <section class="card wow fadeInUp" id="card">
+    <div class="container">
+      <h2 class="section-ttl">Card</h2>
+      <div class="card-items">
+        <div class="card-item wow bounceInLeft">
+          <a href="" class="media">
+            <div class="card-img"><img src="./img/card01.png" alt="" class=""></div>
+            <div class="media-body">
+              <div class="media-title">タイトルタイトル</div>
+              <div class="media-content">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+        </div>
+        <div class="card-item wow bounceInDown">
+          <a href="" class="media">
+            <div class="card-img"><img src="./img/card01.png" alt="" class=""></div>
+            <div class="media-body">
+              <div class="media-title">タイトルタイトル</div>
+              <div class="media-content">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+        </div>
+        <div class="card-item wow bounceInRight">
+          <a href="" class="media">
+            <div class="card-img"><img src="./img/card01.png" alt="" class=""></div>
+            <div class="media-body">
+              <div class="media-title">タイトルタイトル</div>
+              <div class="media-content">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+        </div>
+        <div class="card-item wow bounceInLeft">
+          <a href="" class="media">
+            <div class="card-img"><img src="./img/card01.png" alt="" class=""></div>
+            <div class="media-body">
+              <div class="media-title">タイトルタイトル</div>
+              <div class="media-content">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+        </div>
+        <div class="card-item wow fadeInUp">
+          <a href="" class="media">
+            <div class="card-img"><img src="./img/card01.png" alt="" class=""></div>
+            <div class="media-body">
+              <div class="media-title">タイトルタイトル</div>
+              <div class="media-content">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+        </div>
+        <div class="card-item wow bounceInRight">
+          <a href="" class="media">
+            <div class="card-img"><img src="./img/card01.png" alt="" class=""></div>
+            <div class="media-body">
+              <div class="media-title">タイトルタイトル</div>
+              <div class="media-content">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+        </div>
+        <div class="card-item wow bounceInLeft">
+          <a href="" class="media">
+            <div class="card-img"><img src="./img/card01.png" alt="" class=""></div>
+            <div class="media-body">
+              <div class="media-title">タイトルタイトル</div>
+              <div class="media-content">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+        </div>
+        <div class="card-item wow bounceInUp">
+          <a href="" class="media">
+            <div class="card-img"><img src="./img/card01.png" alt="" class=""></div>
+            <div class="media-body">
+              <div class="media-title">タイトルタイトル</div>
+              <div class="media-content">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section class="news wow fadeInUp" id="news">
+    <div class="container">
+      <h2 class="section-ttl">News</h2>
+      <div class="news-items">
+        <div class="news-item">
+          <div class="info">
+            <div class="info-meta">
+              <time class="info-published" datetime="2019-01-30">2019-01-30</time>
+              <div class="info-label">
+                <a href="" class="info-label">ラベル１</a>
+              </div>
+            </div>
+            <div class=" info-ttl"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="info">
+            <div class="info-meta">
+              <time class="info-published" datetime="2019-01-30">2019-01-30</time>
+              <div class="info-label info-label-1">
+                <a href="" class="info-label">ラベル１</a>
+              </div>
+            </div>
+            <div class=" info-ttl"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="info">
+            <div class="info-meta">
+              <time class="info-published" datetime="2019-01-30">2019-01-30</time>
+              <div class="info-label info-label-2">
+                <a href="" class="info-label">ラベル１</a>
+              </div>
+            </div>
+            <div class=" info-ttl"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="info">
+            <div class="info-meta">
+              <time class="info-published" datetime="2019-01-30">2019-01-30</time>
+              <div class="info-label ">
+                <a href="" class="info-label">ラベル１</a>
+              </div>
+            </div>
+            <div class=" info-ttl"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="info">
+            <div class="info-meta">
+              <time class="info-published" datetime="2019-01-30">2019-01-30</time>
+              <div class="info-label ">
+                <a href="" class="info-label">ラベル１</a>
+              </div>
+            </div>
+            <div class=" info-ttl"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="news-link">
+        <a href="">more</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="price  wow fadeInUp" id="price">
+    <div class="container">
+      <h2 class="section-ttl">Price</h2>
+      <div class="price-content">
+        <div class="price-img"><img src="./img/price.png" alt=""></div>
+        <div class="table-price">
+          <table class="table-default">
+						<tr>
+							<th></th>
+							<th>column1</th>
+							<th>column2</th>
+						</tr>
+						<tr>
+							<th>row1</th>
+							<td>100円</td>
+							<td>100円</td>
+						</tr>
+						<tr>
+							<th>row2</th>
+							<td>6,000円</td>
+							<td>0円</td>
+						</tr>
+						<tr>
+							<th>row3</th>
+							<td class="table-default__multiline">
+								<span class="m-active">6,000円</span><br>
+								<span class="m-small">※ 今だけ半額</span>
+							</td>
+							<td>0円</td>
+						</tr>
+						<tr>
+							<th>row4</th>
+							<td>100円</td>
+							<td>100円</td>
+						</tr>
+          </table>
+          <div class="table-attention">※目安なので詳しくは<a href>お問い合わせ</a>ください。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="map  wow fadeInUp" id="map">
+    <div class="container">
+      <h2 class="section-ttl">Access</h2>
+      <div class="map-iframe">
+        <div class="map-iframe-wrap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.0057111878637!2d17.234353550320076!3d40.79427154510005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1347b26487f9383d%3A0x803e3f2f028a5d8!2z44Kk44K_44Oq44KiIOOAkjcwMDExIOODkOODvOODqiDjgqLjg6vjg5njg63jg5njg4Pjg60!5e0!3m2!1sja!2sjp!4v1601564745512!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+      <dl class="map-info">
+				<dt>住所</dt>
+				<dd>ほげほげほげのほげの場所</dd>
+				<dt>アクセス</dt>
+				<dd>〇〇駅から右に５分</dd>
+      </dl>
+      <div class="map-link">
+        <a href="" class="button-arrow-right">Googleマップで見る</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="tab wow fadeInUp" id="tab">
+    <div class="container">
+      <h2 class="section-ttl">Tab</h2>
+      <div class="tab-wrap">
+        <div class="tab-menu-links">
+          <div class="tab-menu-item1 tab-menu-link is-chosen">
+            <a href="" class="tab-link" id="tab-1" data-tab="tab1">タブ1</a>
+          </div>
+          <div class="tab-menu-item2 tab-menu-link">
+            <a href="" class="tab-link" data-tab="tab2">タブ2</a>
+          </div>
+          <div class="tab-menu-item3 tab-menu-link">
+            <a href="" class="tab-link" data-tab="tab3">タブ3</a>
+          </div>
+          <div class="tab-menu-item4 tab-menu-link">
+            <a href="" class="tab-link" data-tab="tab4">タブ4</a>
+          </div>
+        </div>
+        <div class="tab-contens">
+          <div data-tab="tab1" class="tab-content-type-1 tab-content is-show-tab-content">
+            <h3 class="tab-item-ttl">タブ１のキャッチ的なテキスト</h3>
+            <div class="tab-content-main">
+              <div class="tab-img"><img src="./img/price.png" alt=""></div>
+              <div class="tab-introduce">
+                <h4 class="tab-introduce-ttl">
+                  タブ１の見出し
+                </h4>
+                <div class="tab-introduce-content">
+                  タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。
+                </div>
+                <div class="tab-introduce-link"><a href="" class="button-arrow-right">詳しく見る</a></div>
+              </div>
+            </div>
+          </div>
+          <div data-tab="tab2" class="tab-content-type-2 tab-content">
+            <h3 class="tab-item-ttl">タブ2のキャッチ的なテキスト</h3>
+            <div class="tab-content-main">
+              <div class="tab-img"><img src="./img/mainvisual.png" alt=""></div>
+              <div class="tab-introduce">
+                <h4 class="tab-introduce-ttl">
+                  タブ2の見出し
+                </h4>
+                <div class="tab-introduce-content">
+                  タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。
+                </div>
+                <div class="tab-introduce-link"><a href="" class="button-arrow-right">詳しく見る</a></div>
+              </div>
+            </div>
+          </div>
+          <div data-tab="tab3" class="tab-content-type-3 tab-content">
+            <h3 class="tab-item-ttl">タブ3のキャッチ的なテキスト</h3>
+            <div class="tab-content-main">
+              <div class="tab-img"><img src="./img/price.png" alt=""></div>
+              <div class="tab-introduce">
+                <h4 class="tab-introduce-ttl">
+                  タブ１の見出し
+                </h4>
+                <div class="tab-introduce-content">
+                  タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。
+                </div>
+                <div class="tab-introduce-link"><a href="" class="button-arrow-right">詳しく見る</a></div>
+              </div>
+            </div>
+          </div>
+          <div data-tab="tab4" class="tab-content-type-4 tab-content">
+            <h3 class="tab-item-ttl">タブ4のキャッチ的なテキスト</h3>
+            <div class="tab-content-main">
+              <div class="tab-img"><img src="./img/card01.png" alt=""></div>
+              <div class="tab-introduce">
+                <h4 class="tab-introduce-ttl">
+                  タブ１の見出し
+                </h4>
+                <div class="tab-introduce-content">
+                  タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。タブ１のコンテンツ。
+                </div>
+                <div class="tab-introduce-link"><a href="" class="button-arrow-right">詳しく見る</a></div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="q-and-a">
+    <div class="container">
+      <h2 class="section-ttl q-and-a-ttl">Q and A</h2>
+      <div class="q-and-a-wrap">
+
+        <div class="q-and-a-item" id="q-and-a-item-1">
+          <div class="q-and-a-question" data-q-and-a-no="1"><a href="">クリックするとどうなりますか？</a></div>
+          <div class="q-and-a-answer" data-q-and-a-no="1">
+            <div class="q-and-a-answer-content">
+              <p>
+                アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。
+              </p></div>
+          </div>
+        </div>
+        
+        <div class="q-and-a-item" id="q-and-a-item-2">
+          <div class="q-and-a-question" data-q-and-a-no="2"><a href="">クリックするとどうなりますか？</a></div>
+          <div class="q-and-a-answer" data-q-and-a-no="2">
+            <div class="q-and-a-answer-content">
+              <p>
+                アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。 
+              </p></div>
+          </div>
+        </div>
+        
+        <div class="q-and-a-item" id="q-and-a-item-3">
+          <div class="q-and-a-question" data-q-and-a-no="3"><a href="">クリックするとどうなりますか？</a></div>
+          <div class="q-and-a-answer" data-q-and-a-no="3">
+            <div class="q-and-a-answer-content">
+              <p>
+                アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。
+              </p></div>
+          </div>
+        </div>
+        
+        <div class="q-and-a-item" id="q-and-a-item-4">
+          <div class="q-and-a-question" data-q-and-a-no="4"><a href="">クリックするとどうなりますか？</a></div>
+          <div class="q-and-a-answer" data-q-and-a-no="4">
+            <div class="q-and-a-answer-content">
+              <p>
+                アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。 
+              </p></div>
+          </div>
+        </div>
+        <div class="q-a">
+          <div class="q-a-wrap">
+            <div class="q-a-item">
+              <div class="q-a-question"><a href="">〇〇について</a></div>
+              <div class="q-a-answer"><p>〇〇についての中身がぐいーんと出てくるイメージです。〇〇についての中身がぐいーんと出てくるイメージです。〇〇についての中身がぐいーんと出てくるイメージです。</p></div>
+            </div>
+            <div class="q-a-item">
+              <div class="q-a-question"><a href="">〇〇について</a></div>
+              <div class="q-a-answer"><p>〇〇についての中身がぐいーんと出てくるイメージです。〇〇についての中身がぐいーんと出てくるイメージです。〇〇についての中身がぐいーんと出てくるイメージです。</p></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> 
+  </section>
+  
+  <section class="contact wow fadeInUp" id="contact" >
+    <div class="container">
+      <h2 class="section-ttl">Contact</h2>
+      <div class="contact-item">
+        <form action="#">
+            <dl class="contact-controls">
+              <div class="contact-control">
+                <dt>
+                  <label for="your-name" class="contact-label contact-label-required">お名前</label>
+                </dt>
+                <dd>
+                  <input type="text" name="your-name" id="your-name" placeholder="山田　太郎" class="form-input" value="" required>
+                </dd>
+              </div>
+              <div class="contact-control">
+                <dt>
+                  <label for="your-mail" class="contact-label contact-label-required">メールアドレス</label>
+                </dt>
+                <dd>
+                  <input type="text" name="your-mail" id="your-mail" class="form-input" placeholder="emal@example.com" value="" required>
+                </dd>
+              </div>
+              <div class="contact-control">
+                <dt>
+                  <label for="your-kind" class="contact-label">お問い合わせ種別</label>
+                </dt>
+                <dd>
+                  <select name="your-kind" id="your-kind" class="form-select">
+                    <option value="">ーーー</option>
+                    <option value="a">セレクトA</option>
+                    <option value="b">セレクトB</option>
+                    <option value="c">セレクトC</option>
+                  </select>
+                </dd>
+              </div>
+              <div class="contact-control">
+                <dt>
+                  <label for="your-message" class="contact-label">お問い合わせ内容</label>
+                </dt>
+                <dd>
+                  <textarea name="your-message" id="your-message" class="form-textarea" placeholder="お問い合わせを入力してください"></textarea>
+                </dd>
+              </div>
+            </dl>
+            <div class="contact-radio">
+              <label class="contact-radio-item"><input type="radio" name="your-name" class="form-radio" type="radio" checked><span>ラジオ1</span></label>
+
+              <label class="contact-radio-item"><input type="radio" name="your-name" class="form-radio" type="radio" ><span>ラジオ2</span></label>
+
+              <label class="contact-radio-item"><input type="radio" name="your-name" class="form-radio" type="radio" ><span>ラジオ3</span></label>
+            </div>
+            <div class="contact-check">
+              <label>
+                <input type="checkbox" class="form-checkbox" name="your-checkbox" required>
+
+                <span><a href="" id="privacy-link">プライバシーポリシー</a>に合意する</span>
+              </label>
+            </div>
+            <div class="contact-submit">
+              <input type="submit"  value="送信する" class="button-arrow-right">
+            </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="modal">
+    <div class="container modal-container">
+      <div class="modal-wrap" data-modal="hide">
+        <div class="modal-close-top-btn modal-close" data-modal="close"><a href=""><img src="./img/btn-batsu.png" alt=""></a></div>
+
+        <h3 class="modal-ttl">プライバシーポリシー</h3>
+        <div class="modal-content">
+          <div class="modal-item">
+            <h3 class="modal-item-ttl">ほにゃらら</h3>
+            <div class="modal-body">
+              <div class="modal-body-text">ほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃらら。</div>
+            </div>
+
+          </div>
+  
+          <div class="modal-item">
+            <h3 class="modal-item-ttl">ほにゃらら</h3>
+            <div class="modal-body">
+              <div class="modal-body-text">ほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃらら。ほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃらら。</div>
+            </div>
+          </div>
+          <div class="modal-close-btn modal-close" data-modal="close"><a href="" class="">閉じる</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-bg" data-modal="hide"></div>
+    </section>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-contents">
+        <div class="footer-left">
+          <div class="footer-logo"><a href=""><img src="./img/logo.png" alt=""></a></div>
+          <div class="footer-info">
+            <p>住所：ほげほげのほげほげ</p>
+            <p>TEL：0000-00-0000</p>
+          </div>
+        </div>
+        <div class="footer-center">
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="">Card</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Price</a></li>
+              <li><a href="">Access</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-right">
+          <div class="footer-sns">
+            <ul>
+              <li><a href="" target="_blank" rel="noopener"><img src="./img/icon-twitter.png" alt=""></a></li>
+              <li><a href="" target="_blank" rel="noopener"><img src="./img/icon-facebook.png" alt=""></a></li>
+              <li><a href="" target="_blank" rel="noopener"><img src="./img/icon-instagram.png" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        <div class="footer-copy">Copyright &copy; 2020  <a href="https://www.daily-trial.com/" target="_blank" rel="noopener">デイトラ</a> All rights reserved.</div>
+      </div>
+  </footer>
+  <div class="totop"><a href="#"><img src="./img/totop.png" alt=""></a></div>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- drawer.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
+<!-- jquery & iScroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+<script src="animation.js"></script>
+
+<!-- <script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    // ここからオプション
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })
+ </script> -->
+ <script src="./wow/dist/wow.js"></script>
+ <script>
+  new WOW().init();
+  </script>
+   <script>
+    $(document).ready(function() {
+    $('.drawer').drawer();
+  });
+  </script>
+</body>
+</html>
